@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AURELIT — салон красоты</title>
+<meta name="description" content="AURELIT — демонстрационный сайт салона красоты. Услуги, мастера, цены.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#hero" class="logo">AUREL<span>IT</span></a>
+    <nav class="nav" id="nav">
+      <a href="#services">Услуги</a>
+      <a href="#masters">Мастера</a>
+      <a href="#prices">Цены</a>
+      <a href="#booking">Запись</a>
+    </nav>
+    <a href="#booking" class="btn btn--small header__cta">Записаться</a>
+    <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="hero">
+    <div class="container hero__inner">
+      <p class="hero__eyebrow">салон красоты · демо-версия</p>
+      <h1 class="hero__title">Красота,<br><em>в которой</em><br>тебя видно</h1>
+      <p class="hero__text">Стрижки, окрашивание, уход и макияж от мастеров, которые слышат. Демонстрационный сайт — все данные вымышлены.</p>
+      <div class="hero__actions">
+        <a href="#booking" class="btn">Записаться онлайн</a>
+        <a href="#services" class="btn btn--ghost">Смотреть услуги</a>
+      </div>
+      <ul class="hero__facts">
+        <li><strong>12</strong> лет на благо красоты</li>
+        <li><strong>8</strong> мастеров в команде</li>
+        <li><strong>4.9</strong> демо-рейтинг</li>
+      </ul>
+    </div>
+    <div class="hero__decor" aria-hidden="true"><span></span><span></span><span></span></div>
+  </section>
+
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">направления</p>
+        <h2>Что мы делаем</h2>
+      </div>
+      <div class="grid grid--services">
+        <article class="card">
+          <span class="card__num">01</span>
+          <h3>Стрижки</h3>
+          <p>Форма, которая держится и подчёркивает черты лица. Женские, мужские, детские.</p>
+        </article>
+        <article class="card">
+          <span class="card__num">02</span>
+          <h3>Окрашивание</h3>
+          <p>От блонда до сложных брондовых переходов — бережные техники и уход в комплекте.</p>
+        </article>
+        <article class="card">
+          <span class="card__num">03</span>
+          <h3>Уход за волосами</h3>
+          <p>Восстановление, ботокс, кератин. Демонстрационные процедуры и цены.</p>
+        </article>
+        <article class="card">
+          <span class="card__num">04</span>
+          <h3>Макияж</h3>
+          <p>Дневной, вечерний, свадебный. Подбор косметики под тон и стиль.</p>
+        </article>
+        <article class="card">
+          <span class="card__num">05</span>
+          <h3>Брови и ресницы</h3>
+          <p>Коррекция, окрашивание, ламинирование. Аккуратные линии без перебора.</p>
+        </article>
+        <article class="card">
+          <span class="card__num">06</span>
+          <h3>Маникюр</h3>
+          <p>Аппаратный, комбинированный, покрытие гель-лаком. Стерильные инструменты.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section masters" id="masters">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">команда</p>
+        <h2>Мастера</h2>
+      </div>
+      <div class="grid grid--masters">
+        <article class="master">
+          <div class="master__avatar" aria-hidden="true">А</div>
+          <h3>Алина Кравец</h3>
+          <p class="master__role">Колорист · 9 лет опыта</p>
+          <p>Сложные окрашивания и восстановление цвета. Демонстрационный профиль.</p>
+        </article>
+        <article class="master">
+          <div class="master__avatar" aria-hidden="true">М</div>
+          <h3>Марк Северов</h3>
+          <p class="master__role">Барбер · 7 лет опыта</p>
+          <p>Классические и современные мужские стрижки, уход за бородой.</p>
+        </article>
+        <article class="master">
+          <div class="master__avatar" aria-hidden="true">Д</div>
+          <h3>Дина Лотос</h3>
+          <p class="master__role">Визажист · 6 лет опыта</p>
+          <p>Макияж под событие и съёмку. Работа с любым типом кожи.</p>
+        </article>
+        <article class="master">
+          <div class="master__avatar" aria-hidden="true">Е</div>
+          <h3>Ева Мирная</h3>
+          <p class="master__role">Мастер маникюра · 5 лет опыта</p>
+          <p>Аккуратный маникюр и стойкое покрытие. Демонстрационные данные.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section prices" id="prices">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">прайс</p>
+        <h2>Демонстрационные цены</h2>
+      </div>
+      <div class="price-list">
+        <div class="price-row"><span>Женская стрижка</span><span>от 2 500 ₽</span></div>
+        <div class="price-row"><span>Мужская стрижка</span><span>от 1 800 ₽</span></div>
+        <div class="price-row"><span>Окрашивание в один тон</span><span>от 4 500 ₽</span></div>
+        <div class="price-row"><span>Сложное окрашивание</span><span>от 7 900 ₽</span></div>
+        <div class="price-row"><span>Уход / ботокс для волос</span><span>от 3 200 ₽</span></div>
+        <div class="price-row"><span>Вечерний макияж</span><span>от 3 000 ₽</span></div>
+        <div class="price-row"><span>Коррекция и окрашивание бровей</span><span>от 1 500 ₽</span></div>
+        <div class="price-row"><span>Маникюр с покрытием</span><span>от 2 200 ₽</span></div>
+      </div>
+      <p class="note">Все цены и услуги на сайте демонстрационные и не являются публичной офертой.</p>
+    </div>
+  </section>
+
+  <section class="section reviews" id="reviews">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">отзывы</p>
+        <h2>Что говорят</h2>
+      </div>
+      <div class="grid grid--reviews">
+        <blockquote class="review"><p>«Окрашивание вышло именно таким, как я просила. Демонстрационный отзыв».</p><footer>— Анна, клиент</footer></blockquote>
+        <blockquote class="review"><p>«Удобно записаться онлайн, мастер всё объяснил. Демо-отзыв».</p><footer>— Игорь, клиент</footer></blockquote>
+        <blockquote class="review"><p>«Атмосфера спокойная, маникюр держится долго. Демо-отзыв».</p><footer>— Лена, клиент</footer></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="section booking" id="booking">
+    <div class="container booking__inner">
+      <div class="booking__text">
+        <p class="eyebrow">запись</p>
+        <h2>Запишитесь на демо-визит</h2>
+        <p>Форма демонстрационная: данные никуда не отправляются. В реальном сайте здесь была бы интеграция с CRM.</p>
+        <ul class="booking__contacts">
+          <li>ул. Демонстрационная, 12</li>
+          <li>+7 (000) 000-00-00</li>
+          <li>Ежедневно, 10:00–21:00</li>
+        </ul>
+      </div>
+      <form class="booking__form" id="bookingForm" novalidate>
+        <label>Имя<input type="text" name="name" placeholder="Ваше имя" required></label>
+        <label>Телефон<input type="tel" name="phone" placeholder="+7 000 000-00-00" required></label>
+        <label>Услуга
+          <select name="service">
+            <option>Стрижка</option>
+            <option>Окрашивание</option>
+            <option>Уход за волосами</option>
+            <option>Макияж</option>
+            <option>Брови и ресницы</option>
+            <option>Маникюр</option>
+          </select>
+        </label>
+        <label>Комментарий<textarea name="comment" rows="3" placeholder="Удобное время и пожелания"></textarea></label>
+        <button type="submit" class="btn">Записаться (демо)</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <a href="#hero" class="logo logo--footer">AUREL<span>IT</span></a>
+    <p>Демонстрационный сайт салона красоты. Контакты, цены и отзывы вымышлены.</p>
+    <p class="footer__copy">© 2025 AURELIT. Демо.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
